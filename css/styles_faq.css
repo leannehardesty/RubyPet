@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color: #fffeea;
+	color: #34495e;
+	padding-top: 56px;
+}
+
+
+.panel-body {
+	font-family: "Times New Roman", Cambria, Didot, serif;
+	font-style: italic;
+}
+
+.panel-title {
+	background-color: pink;
+	font-style: oblique;
+}
+
+
+
+.nav {
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	
+}
+
+.nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 1px 30px 15px 1px;
+	float: right;
+}
+
+.nav ul li a {
+	color: pink;
+}
+
+.nav a {
+	float: left;
+	color: pink;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	padding: 20px 0px 0px 15px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+	color: #ff0;
+	text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+     
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 100%; 
+}
+
+.column {
+
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 20px;
+	height: 300px;
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+	padding: 10px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 60px;
+	padding-left: 20px;
+	position: static;
+	width: 90%;
+	 
+}
+
+.photo {
+	width: 100%;
+	 
+}
+#skill-list {
+	margin-left: 50px;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, 
+li {
+    font-family: Georgia, Cambria, Didot, serif;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+
+
+

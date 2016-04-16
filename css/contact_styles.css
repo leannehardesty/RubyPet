@@ -1,0 +1,90 @@
+
+
+
+body {  
+ background: url("../img/ComputerImage.jpg") repeat fixed center center / cover  rgba(0, 0, 0, 0);  
+  
+ padding-top: 36px;
+}  
+
+
+
+.landing {
+    padding: 50px; 
+	float: right;
+    width: 700px;
+    border-radius: 5px;
+	background: rgba(255, 255, 255, 0.9);
+	margin-right: -30px;
+ 	margin-top:  15px;
+	color: #434343;
+    
+}
+
+
+.nav {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1px 30px 15px 1px;
+    float: right;
+ 
+
+}
+
+.nav ul li a {
+    color: pink;
+}
+
+.nav a {
+    float: left;
+    color: pink;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding: 20px 0px 0px 15px;
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+    color: #ff0;
+    text-decoration: none;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, 
+li {
+    font-family: Georgia, Cambria, Didot, serif;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
